@@ -14,11 +14,16 @@
 </head>
 ```
 - Id de la tabla
-    - ```html 
+- ```html
     <table id="tabla_resultado">
-    ...
+    <thead>
+        <tr>
+            <td>#</td>
+        </tr>
+    </thead>
     </table>
     ```
+
 - Archivo JS que editar la tabla
 - ```js
     <script>
